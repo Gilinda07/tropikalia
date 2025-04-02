@@ -137,7 +137,7 @@ h2 {
     background-color: #CB6D43;
     border: none;
     font-weight: bold;
-}
+}--alto-con
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
@@ -183,6 +183,13 @@ h2 {
 }
 .alto-contraste .nav-link {
     color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
 }
 
 .alto-contraste #tropicalia{
