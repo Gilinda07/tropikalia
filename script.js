@@ -29,4 +29,7 @@ document.addEventListener ('DOMContentLoaded', function(){
 
 });
 
-
+ScrollReavel().reavel('#inicio', {delay: 500});
+ScrollReavel().reavel('#tropicalia', {delay: 500});
+ScrollReavel().reavel('#galeria', {delay: 500});
+ScrollReavel().reavel('#contato', {delay: 500});
